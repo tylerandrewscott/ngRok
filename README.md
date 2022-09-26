@@ -14,7 +14,9 @@ the package assumes that you have:
 
 # functions
 
-install_ngrok: as the name implies, installs ngrok on your cmoputer
+install_ngrok: as the name implies, installs ngrok on your computer
 auth_ngrok: authorizes ngrok using your personal access token
+livestream_start: initiate a livestream, with options to designate a custom domain, and username/password combo
+livestream_stop: kill the tunnel
 
 # future build: use the ngrok API to set up custom domains, tunnels, etc.
